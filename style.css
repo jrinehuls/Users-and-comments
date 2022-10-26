@@ -31,6 +31,7 @@ table, th, td, tr {
 }
 
 .post-table-header {
+    white-space: nowrap;
     background-color: black;
     color: white;  
 }
