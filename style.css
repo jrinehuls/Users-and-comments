@@ -1,10 +1,16 @@
+body {
+    background: linear-gradient(aqua, aquamarine);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 .first-row {
     display: flex;
     flex-direction: row;
 }
 
 table, th, td, tr {
-    border: 3px solid;
+    border: 3px solid black;
     margin: 0px;
     padding: 2px 5px 2px 5px;
     border-collapse: collapse;
@@ -15,8 +21,18 @@ table, th, td, tr {
     margin-bottom: 50px;
 }
 
+.user-table-header {
+    background-color: black;
+    color: white;
+}
+
 .post-table {
     width: 70%;
+}
+
+.post-table-header {
+    background-color: black;
+    color: white;  
 }
 
 #selector {
